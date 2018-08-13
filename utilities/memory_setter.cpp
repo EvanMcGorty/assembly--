@@ -10,7 +10,7 @@ std::string binary_to_code(std::string binary)
 	{
 		if (v != '1' && v != '0')
 		{
-			throw std::string("1s and 0s only");
+			return std::string("1s and 0s only");
 		}
 		if (v == '1')
 		{
